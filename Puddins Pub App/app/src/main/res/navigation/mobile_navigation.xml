@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.finalproject.Fragments.HomePageFragment"
+        android:label="Puddins Pub Home Page"
+        tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/nav_merch"
+        android:name="com.example.finalproject.RecyclerView.MerchFragment"
+        android:label="Buy our Merch!"
+        tools:layout="@layout/fragment_merch" />
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.finalproject.ViewPager.MenuFragment"
+        android:label="Explore our Menu!"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_burger"
+        android:name="com.example.finalproject.Fragments.BurgerFragment"
+        android:label="Customize your own Burger!"
+        tools:layout="@layout/fragment_burger" />
+    <fragment
+        android:id="@+id/nav_credits"
+        android:name="com.example.finalproject.Fragments.CreditsFragment"
+        android:label="@string/credits"
+        tools:layout="@layout/fragment_credits" />
+    <fragment
+        android:id="@+id/nav_beer"
+        android:name="com.example.finalproject.ListView.BeerFragment"
+        android:label="Our Beer Menu!"
+        tools:layout="@layout/fragment_beer" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.finalproject.Fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

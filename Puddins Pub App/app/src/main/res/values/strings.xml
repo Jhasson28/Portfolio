@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_puddins_pub_and_grill">Welcome to Puddins Pub and Grill</string>
+    <string name="puddins_pub_and_grill_is_a_family_ran_business_that_strives_on_producing_great_food_and_even_better_beer">Puddins Pub and Grill is a family ran business that strives on producing great food and even better beer!</string>
+    <string name="order_our_merch">Order Our Merch!</string>
+    <string name="order_online">Order Online</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="a_picture">a picture</string>
+    <string name="merch">Merch</string>
+    <string name="create_burger">Create Burger</string>
+    <string name="credits">Credits</string>
+    <string name="welcome_to_burger_customization">Welcome to Burger Customization</string>
+    <string name="menu">Menu</string>
+    <string name="check_us_out_on_instagram">Check us out on Instagram!</string>
+    <string name="location">Location</string>
+    <string name="textview">TextView</string>
+    <string name="string_textview" />
+    <string name="order_now">Order Now!</string>
+    <string name="photo_credits_button">Photo Credits Button</string>
+    <string name="bun">Bun:</string>
+    <string name="brioche_plain_sesame_seed_pretzel">Brioche , Plain, Sesame Seed, Pretzel</string>
+    <string name="burger_type">Burger Type:</string>
+    <string name="turkey_chicken_beef_veggie_fish">Turkey, Chicken, Beef, Veggie, Fish</string>
+    <string name="cheese">Cheese:</string>
+    <string name="american_swiss_cheddar_montery_jack_pepper_jack_provolone_none">American , Swiss, Cheddar, Montery Jack, Pepper Jack, Provolone, None</string>
+    <string name="toppings">Toppings:</string>
+    <string name="order">Order!</string>
+    <string name="bun_type">Bun Type</string>
+    <string name="cheese_type">Cheese Type</string>
+    <string name="relish">Relish</string>
+    <string name="ketchup">Ketchup</string>
+    <string name="mustard">Mustard</string>
+    <string name="mayo">Mayo</string>
+    <string name="lettuce">Lettuce</string>
+    <string name="tomato">Tomato</string>
+    <string name="onions">Onions</string>
+    <string name="mushrooms">Mushrooms</string>
+    <string name="jalapenos">Jalapenos</string>
+    <string name="fried_egg">Fried Egg</string>
+    <string name="fries">Fries</string>
+    <string name="onion_rings">Onion Rings</string>
+    <string name="meat">Meat:</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

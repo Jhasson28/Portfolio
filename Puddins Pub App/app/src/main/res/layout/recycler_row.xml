@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/merch_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/merch_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/a_picture" />
+
+        <TextView
+            android:id="@+id/merch_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</ScrollView>
